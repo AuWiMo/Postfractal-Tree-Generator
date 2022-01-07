@@ -3,7 +3,7 @@ var slider;
 var greenness = 61;
 
 function setup() {
-  createCanvas(700, 700);
+  createCanvas(400, 400);
   slider = createSlider(0, TWO_PI, PI / 2, 0.01);
   frameRate(5);
 }
